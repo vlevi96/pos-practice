@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+  
+    background: transparent;
+  
+    font-family: inherit;
+    
+    text-decoration: none;
+}
+  
+ol, ul, li {
+    list-style:none;
+    display:block;
+}
+  
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+  
+a img {
+    border: none
+}
+  
+button, a {
+    cursor: pointer;
+    color: inherit
+}
+  
+textarea {
+    resize: none
+}
+  
+button, input, textarea, select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0
+}
+.level
+{
+    padding: 5vh;
+}
+.level1
+{
+    width: 90vh;
+    height: 90vh;
+    margin: 5vh auto;
+    background-color: aliceblue;
+
+}
+.level2
+{
+    width: 80vh;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+.level3
+{
+    width: 70vh;
+    height: 70vh;
+    background-color: aqua;
+}
+.level4
+{
+    width: 60vh;
+    height: 60vh;
+    background-color: aquamarine;
+}
+.level5
+{
+    width: 50vh;
+    height: 50vh;
+    background-color: azure;
+}
+.level6
+{
+    width: 40vh;
+    height: 40vh;
+    background-color: beige;
+}
+.level7
+{
+    width: 30vh;
+    height: 30vh;
+    background-color: bisque;
+}
+.level8
+{
+    width: 20vh;
+    height: 20vh;
+    background-color:blue;
+    padding: 0;
+}
+.level8::before
+{
+    content: "Before ";
+}
+.level8::after
+{
+    content: "After ";
+}
+
